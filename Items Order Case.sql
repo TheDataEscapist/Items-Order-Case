@@ -151,7 +151,7 @@ group by item;
 
 /*Task 9 (Table Joins)
 1. Write a query using a join to determine which items were ordered by each of the customers in the customers table. 
-Select the customerid, firstname, lastname, state OrderDate, item, and price for everything each customer purchased in the orders table.
+Select the customerid, firstname, lastname, state, OrderDate, item, and price for everything each customer purchased in the orders table.
 Display the results sorted by state in descending order.*/
 select customers.customerid, firstname, lastname, state, OrderDate, item, price
 from customers INNER JOIN orders
