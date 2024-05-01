@@ -1,5 +1,5 @@
 # Items-Order-Case
-The database in this case consists of 2 tables - orders and customers. The table 'orders' comprises of customerid int, item text, quantity int, price int, order_date text, whereas, the table 'customers' comprises of customerid int, firstname text, lastname text, city text, state text. This project aims to accomplish the following tasks by utilizing a variety of functions, operators, and clauses. But first, we treat the order_date text column in the orders table and convert it to OrderDate date column.<br>
+The database in this case consists of 2 tables - orders and customers. The table 'orders' comprises of customerid int, item text, quantity int, price int, order_date text, whereas, the table 'customers' comprises of customerid int, firstname text, lastname text, city text, state text. This project aims to accomplish the following tasks by utilizing a variety of functions, operators, and clauses. But first, we will treat the order_date text column in the orders table and convert it to OrderDate date column.<br>
 ### <br>Task 1 (Comparison Operators)
 1. From the orders table, select a list of all items purchased for customerid 10449. Display the customerid, item, and price for this customer.
 2. Select all columns from the orders table for the customers who purchased a Tent.
